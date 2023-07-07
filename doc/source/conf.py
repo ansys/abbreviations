@@ -27,6 +27,10 @@ html_theme_options = {
     ],
 }
 
+html_context = {
+    "display_github": True,
+}
+
 # Sphinx extensions
 extensions = [
     "sphinx.ext.autodoc",
