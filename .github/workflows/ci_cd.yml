@@ -26,6 +26,7 @@ jobs:
         uses: ansys/actions/code-style@v4
         with:
           python-version: ${{ env.MAIN_PYTHON_VERSION }}
+          use-python-cache: false
 
   docs-style:
     name: Documentation Style Check
