@@ -252,7 +252,7 @@ known are patents, copyrights, trademarks, and trade secrets.
 
 Internet protocol: The network layer communications protocol in the
 Internet protocol suite for relaying datagrams across network
-boundaries. Its routing function enables internetworking and essentially
+boundaries. Its routing function enables internet working and essentially
 establishes the internet.
 
 ### J - K - L
