@@ -1,6 +1,4 @@
----
-title: Glossary of abbreviations
----
+# Glossary of abbreviations
 
 - [Introduction](#introduction)
 - [Abbreviations](#abbreviations)
