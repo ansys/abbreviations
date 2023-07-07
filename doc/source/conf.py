@@ -1,9 +1,8 @@
 """Sphinx documentation configuration file."""
-import os
 from datetime import datetime
+import os
 
 from ansys_sphinx_theme import ansys_logo_black as logo
-from ansys_sphinx_theme import get_version_match
 
 # Project information
 project = "abbreviations"
@@ -23,13 +22,9 @@ html_theme_options = {
     "show_prev_next": False,
     "show_breadcrumbs": True,
     "additional_breadcrumbs": [
-        ("Ansys", "https://dev.docs.ansys.com/"),
+        ("PyAnsys", "https://docs.pyansys.com/"),
+        ("PyAnsys Developer's Guide", "https://dev.docs.pyansys.com/"),
     ],
-    "switcher": {
-        "json_url": f"https://{cname}/versions.json",
-        "version_match": get_version_match(__version__),
-    },
-    "check_switcher": False,
 }
 
 # Sphinx extensions
@@ -39,7 +34,7 @@ extensions = [
     "numpydoc",
     "sphinx.ext.intersphinx",
     "sphinx_copybutton",
-    "myst_parser"
+    "myst_parser",
 ]
 
 # Intersphinx mapping
@@ -85,10 +80,12 @@ templates_path = ["_templates"]
 
 # The suffix(es) of source filenames.
 source_suffix = {
-    '.rst': 'restructuredtext',
-    '.txt': 'markdown',
-    '.md': 'markdown',
+    ".rst": "restructuredtext",
+    ".txt": "markdown",
+    ".md": "markdown",
 }
 
 # The master toctree document.
 master_doc = "index"
+
+myst_heading_anchors = 3

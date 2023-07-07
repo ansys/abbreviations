@@ -1,7 +1,7 @@
 repos:
 
 - repo: https://github.com/psf/black
-  rev: 23.1.0
+  rev: 23.3.0
   hooks:
   - id: black
     args: ["doc/"]
@@ -16,13 +16,13 @@ repos:
       "--line-length", "100",
     ]
 
-- repo: https://gitlab.com/PyCQA/flake8
+- repo: https://github.com/pycqa/flake8
   rev: 6.0.0
   hooks:
   - id: flake8
 
 - repo: https://github.com/codespell-project/codespell
-  rev: v2.2.2
+  rev: v2.2.5
   hooks:
   - id: codespell
     args: [--ignore-words=doc/styles/Vocab/ANSYS/accept.txt, -S \*.pyc\,\*.xml\,\*.txt\,\*.gif\,\*.png\,\*.jpg\,\*.js\,\*.html\,\*.doctree\,\*.ttf\,\*.woff\,\*.woff2\,\*.eot\,\*.mp4\,\*.inv\,\*.pickle\,\*.ipynb\,flycheck\*\,./.git/\*\,./.hypothesis/\*\,\*.yml\,./doc/build/\*\,./doc/images/\*\,./dist/\*\,\*~\,.hypothesis\*\,./doc/source/examples/\*\,\*cover\,\*.dat\,\*.mac]
@@ -34,7 +34,7 @@ repos:
   - id: debug-statements
 
 - repo: https://github.com/python-jsonschema/check-jsonschema
-  rev: 0.21.0
+  rev: 0.23.2
   hooks:
     - id: check-github-workflows
       name: "Check GitHub workflows"

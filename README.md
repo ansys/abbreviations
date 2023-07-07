@@ -26,7 +26,7 @@ glossary of all these abbreviations.
 
 ## Abbreviations
 
-## A - B - C
+### A - B - C
 
 **ACE**
 
