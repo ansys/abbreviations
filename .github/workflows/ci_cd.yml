@@ -62,7 +62,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     needs: [docs]
     steps:
-  
+
       - name: "Download HTML documentation artifacts"
         uses: actions/download-artifact@v3
         with:

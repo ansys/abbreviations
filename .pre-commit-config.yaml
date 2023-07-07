@@ -32,12 +32,11 @@ repos:
   hooks:
   - id: check-merge-conflict
   - id: debug-statements
+  - id: check-yaml
+  - id: trailing-whitespace
 
 - repo: https://github.com/python-jsonschema/check-jsonschema
-  rev: 0.23.2
+  rev: 0.22.0
   hooks:
     - id: check-github-workflows
-      name: "Check GitHub workflows"
-      files: ^\.github/workflows/
-      types: [yaml]
 
