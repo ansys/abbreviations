@@ -1,6 +1,4 @@
----
-title: Glossary of abbreviations
----
+# Glossary of abbreviations
 
 - [Introduction](#introduction)
 - [Abbreviations](#abbreviations)
@@ -15,7 +13,7 @@ title: Glossary of abbreviations
   - [Y - X](#y---x)
 
 
-# Introduction
+## Introduction
 
 Like all technical documentation, the documentation for PyAnsys
 libraries includes lots of abbreviations, which is a general term that
@@ -26,9 +24,9 @@ developer community, the documentation for a PyAnsys library provides
 the longer word or phrase. For your convenience, this page provides a
 glossary of all these abbreviations.
 
-# Abbreviations
+## Abbreviations
 
-## A - B - C
+### A - B - C
 
 **ACE**
 
@@ -119,7 +117,7 @@ operating systems, programming languages, and computing hardware.
 Carriage return, line feed: The invisible characters that the Windows
 operating system uses to denote line endings in files.
 
-## D - E - F
+### D - E - F
 
 **DevEco**
 
@@ -202,7 +200,7 @@ simulation](https://examples.mapdl.docs.pyansys.com/technology_showcase_examples
 example in the PyMAPDL documentation shows how to simulate the FSW
 process.
 
-## G - H - I
+### G - H - I
 
 **gRPC**
 
@@ -254,10 +252,10 @@ known are patents, copyrights, trademarks, and trade secrets.
 
 Internet protocol: The network layer communications protocol in the
 Internet protocol suite for relaying datagrams across network
-boundaries. Its routing function enables internetworking and essentially
+boundaries. Its routing function enables internet working and essentially
 establishes the internet.
 
-## J - K - L
+### J - K - L
 
 **JSON**
 
@@ -271,7 +269,7 @@ sent from a server to a web page.
 Line feed: The invisible character that the Linux and Mac operating
 systems use to denote line endings in files.
 
-## M - N - O
+### M - N - O
 
 **MEMS** Microelectromechanical systems: Miniaturized devices
 incorporating both electronic and mechanical components. A MEM device is
@@ -310,7 +308,7 @@ change, and distribute the software and its source code to anyone and
 for any purpose. Open source software may be developed in a
 collaborative public manner.
 
-## P - Q - R
+### P - Q - R
 
 **PCBN**
 
@@ -420,7 +418,7 @@ documentation for Python-based software programs.
 Result thermal: A proprietary file format in which Ansys Mechanical
 writes simulation results for a thermal analysis.
 
-## S - T - U
+### S - T - U
 
 **SI units**
 
@@ -451,7 +449,7 @@ UDFs are scalar functions that return a value for each row passed to
 them. In Python, UDFs can be applied directly in the dataframes and SQL
 data databases.
 
-## V - W - X
+### V - W - X
 
 **VPN**
 
@@ -483,6 +481,6 @@ enables running a GNU/Linux environment, including most command-line
 tools, utilities, and apps, directly on Windows, unmodified, without the
 overhead of a traditional virtual machine or dual-boot setup.
 
-## Y - X
+### Y - X
 
 (No Y or Z entries exist presently.)
