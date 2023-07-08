@@ -2,7 +2,7 @@
 from datetime import datetime
 import os
 
-from ansys_sphinx_theme import ansys_logo_black as logo
+from ansys_sphinx_theme import pyansys_logo_black as logo
 
 # Project information
 project = "abbreviations"
@@ -24,6 +24,7 @@ html_theme_options = {
     "additional_breadcrumbs": [
         ("PyAnsys", "https://docs.pyansys.com/"),
         ("PyAnsys Developer's Guide", "https://dev.docs.pyansys.com/"),
+        ("Getting started", "https://dev.docs.pyansys.com/getting-started/"),
     ],
 }
 
