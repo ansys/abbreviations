@@ -24,6 +24,7 @@ html_theme_options = {
     "additional_breadcrumbs": [
         ("PyAnsys", "https://docs.pyansys.com/"),
         ("PyAnsys Developer's Guide", "https://dev.docs.pyansys.com/"),
+        ("Getting started", "https://dev.docs.pyansys.com/getting-started/"),
     ],
 }
 
