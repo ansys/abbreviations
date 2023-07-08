@@ -2,7 +2,7 @@
 from datetime import datetime
 import os
 
-from ansys_sphinx_theme import ansys_logo_black as logo
+from ansys_sphinx_theme import pyansys_logo_black as logo
 
 # Project information
 project = "abbreviations"
