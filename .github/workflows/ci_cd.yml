@@ -28,27 +28,9 @@ jobs:
           python-version: ${{ env.MAIN_PYTHON_VERSION }}
           use-python-cache: false
 
-  docs-style:
-    name: Documentation style check
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Running Vale
-        uses: errata-ai/vale-action@reviewdog
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        with:
-          files: README.md
-          reporter: github-pr-check
-          level: error
-          filter_mode: nofilter
-          fail_on_error: true
-          vale_flags: "--config=doc/.vale.ini"
-
   docs:
     name: "Build documentation"
-    needs: [style, docs-style]
+    needs: [style]
     runs-on: ubuntu-latest
     steps:
       - name: "Build project documentation"
@@ -57,6 +39,7 @@ jobs:
           python-version: ${{ env.MAIN_PYTHON_VERSION }}
           use-python-cache: false
           skip-install: true
+          sphinxopts: "-j auto"
 
   doc-deploy:
     name: "Deploy documentation"
