@@ -161,13 +161,6 @@ Don\'t repeat yourself: A principle of software development aimed at
 reducing repetition of software patterns, replacing them with
 abstractions or using data normalization to avoid redundancy.
 
-**XML**
-
-eXtensible Markup Language: A markup language and file format for
-storing, transmitting, and reconstructing arbitrary data. XML defines a
-set of rules for encoding documents in a format that is both
-human-readable and machine-readable.
-
 **EOL**
 
 End-of-line: One or more invisible characters that denote line endings
@@ -214,12 +207,6 @@ checking, and authentication.
 Graphical user interface: The system of interactive visual components
 that computer software provides for interacting with it. Such visual
 components include windows, buttons, menus, and icons.
-
-**HTTP**
-
-Hypertext transfer protocol: A protocol for securing the communication
-between a browser and a web server. HTTP is the foundation of any
-internet data exchange.
 
 **HTTP**
 
@@ -310,7 +297,7 @@ collaborative public manner.
 
 ### P - Q - R
 
-**PCBN**
+**PCB**
 
 Printed circuit board: An assembly that mechanically supports and
 electrically connects layers of conductors, metal interconnects,
@@ -481,6 +468,13 @@ enables running a GNU/Linux environment, including most command-line
 tools, utilities, and apps, directly on Windows, unmodified, without the
 overhead of a traditional virtual machine or dual-boot setup.
 
-### Y - X
+**XML**
+
+eXtensible Markup Language: A markup language and file format for
+storing, transmitting, and reconstructing arbitrary data. XML defines a
+set of rules for encoding documents in a format that is both
+human-readable and machine-readable.
+
+### Y - Z
 
 (No Y or Z entries exist presently.)
