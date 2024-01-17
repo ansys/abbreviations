@@ -391,7 +391,7 @@ object-oriented equivalent of an RPC (remote procedure) for Java, with
 support for direct transfer of serialized Java classes and distributed
 garbage-collection.
 
-*RST*
+**RST**
 
 Result structural: A proprietary file format in which Ansys Mechanical
 writes simulation results from a structural analysis.
@@ -400,7 +400,7 @@ reStructured Text: A file format and markup language that software
 developers and technical documentation writers use to produce
 documentation for Python-based software programs.
 
-*RTH*
+**RTH**
 
 Result thermal: A proprietary file format in which Ansys Mechanical
 writes simulation results for a thermal analysis.
