@@ -2,8 +2,6 @@
 from datetime import datetime
 import os
 
-from ansys_sphinx_theme import pyansys_logo_black as logo
-
 # Project information
 project = "abbreviations"
 copyright = f"(c) {datetime.now().year} ANSYS, Inc. All rights reserved"
@@ -11,13 +9,13 @@ author = "ANSYS, Inc."
 release = version = "0.1.dev0"
 cname = os.getenv("DOCUMENTATION_CNAME", "docs.pyansys.com")
 
-# Select desired logo, theme, and declare the html title
-html_logo = logo
+# Select desired theme, and declare the html title
 html_theme = "ansys_sphinx_theme"
 html_short_title = html_title = "abbreviations"
 
 # specify the location of your github repo
 html_theme_options = {
+    "logo": "pyansys",
     "github_url": "https://github.com/ansys/abbreviations",
     "show_prev_next": False,
     "show_breadcrumbs": True,
