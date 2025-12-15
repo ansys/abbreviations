@@ -258,7 +258,25 @@ systems use to denote line endings in files.
 
 ### M - N - O
 
-**MEMS** Microelectromechanical systems: Miniaturized devices
+**MBSE**
+
+[Model-Based Systems
+Engineering](https://en.wikipedia.org/wiki/Model-based_systems_engineering):
+A paradigm shift in systems
+engineering, replacing traditional document-centric approaches with a
+methodology that uses structured domain models as the primary means of
+information exchange and system representation throughout the
+engineering lifecycle.
+
+**MC**
+
+ModelCenter: an Ansys product that allows users to create visual
+workflows of engineering simulations, then layer on top system of systems,
+MBSE, optimization, DOE, design space visualization, and design exploration.
+
+**MEMS**
+
+Microelectromechanical systems: Miniaturized devices
 incorporating both electronic and mechanical components. A MEM device is
 made up of components between 1 and 100 micrometers in size. The
 [PyMAPDL
@@ -286,6 +304,13 @@ Operating system: System software that controls and manages the hardware
 and the other software on a computer. Every computer must have at least
 one OS. Popular operating systems include Microsoft Windows, Linux, and
 Apple macOS.
+
+**OSL**
+
+optiSLang: an Ansys product that allows users to create visual workflows
+for process integration and design optimization (PIDO). It contains rich
+design exploration capabilities including wizards, optimization,
+uncertainty quantification, and design space visualization.
 
 **OSS**
 
