@@ -268,13 +268,13 @@ methodology that uses structured domain models as the primary means of
 information exchange and system representation throughout the
 engineering lifecycle.
 
-**MC** 
+**MC**
 
 ModelCenter: an Ansys product that allows users to create visual
 workflows of engineering simulations, then layer on top system of systems,
 MBSE, optimization, DOE, design space visualization, and design exploration.
 
-**MEMS** 
+**MEMS**
 
 Microelectromechanical systems: Miniaturized devices
 incorporating both electronic and mechanical components. A MEM device is
@@ -305,11 +305,11 @@ and the other software on a computer. Every computer must have at least
 one OS. Popular operating systems include Microsoft Windows, Linux, and
 Apple macOS.
 
-**OSL** 
+**OSL**
 
 optiSLang: an Ansys product that allows users to create visual workflows
 for process integration and design optimization (PIDO). It contains rich
-design exploration capabilities including wizards, optimization, 
+design exploration capabilities including wizards, optimization,
 uncertainty quantification, and design space visualization.
 
 **OSS**
