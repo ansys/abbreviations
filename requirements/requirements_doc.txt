@@ -1,5 +1,5 @@
 ansys-sphinx-theme==1.6.4
 numpydoc==1.10.0
-Sphinx==8.2.3
+Sphinx==9.0.4
 sphinx-copybutton==0.5.2
 myst-parser==4.0.1
