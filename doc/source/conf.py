@@ -92,3 +92,7 @@ source_suffix = {
 master_doc = "index"
 
 myst_heading_anchors = 3
+
+linkcheck_ignore = [
+    r"https://developer\.ansys\.com/?",
+]
